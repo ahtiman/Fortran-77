@@ -1,0 +1,20 @@
+c root of the quadratic equation
+	write(*,*)"enter the coefficients of qudratic equation"
+	read(*,*)a,b,c
+	
+c equation to find discriminant
+
+	d = b*b-4*a*c
+	if (d.lt.0) goto 20
+	if (d.gt.0) goto 30
+	
+	x = -b/(2*a)
+	write(*,*)"roots are real and equal",x 
+	goto 100
+
+20    write(*,*)"roots are imaginary"
+      goto 100
+      
+30   
+
+	

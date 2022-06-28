@@ -1,0 +1,6 @@
+	write(*,*)"side", "width", "height"
+	read(*,*)s,w,h
+	vol = (s*w*h)/3.0
+	write(*,*)"volume",vol
+	stop
+	end
